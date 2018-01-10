@@ -1,0 +1,6 @@
+0	hardware
+1	networks
+2	data_management_systems
+3	information_retrieval
+4	machine_learning
+5	security_and_privacy

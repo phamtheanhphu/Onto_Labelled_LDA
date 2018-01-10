@@ -46,13 +46,13 @@ public class LDA {
 
 			option.est = true;
 			
-			option.dir = System.getProperty("user.dir") + "/data/corpus";
-			option.dfile = "model-00100";
-			option.modelName = "model-00100";
+			option.dir = System.getProperty("user.dir") + "/data/acm_llda_model";
+			option.dfile = "acm_model";
+			option.modelName = "acm_model";
 			
-			option.K = 3;
-			option.twords = 15;
-			option.niters = 5;
+			option.K = 6;
+			option.twords = 20;
+			option.niters = 6;
 			
 			parser.parseArgument(args);
 
